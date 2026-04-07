@@ -26,3 +26,5 @@ another change to main
 - to create this, we can call "git push -u origin merging"
 - -u command will set up upstreaming so that time we call a git push it will push this branch to our origin repository
 - We call origin as the remote repository to push the merging branch to the remote repository 
+
+- CHANGE TO MAIN - this is a commited change to main that we will use to update in our rebase
