@@ -33,3 +33,5 @@ another change to main
 - to call a rebase, we want to call : "git rebase main" from our feature branch
 - this will allow us to update our feature branch with the latest changes to main
 - CHANGE TO MAIN - this is a commited change to main that we will use to update in our rebase
+- To complete our rebase, we call "git rebase --continue" to accept the changes or updates in conflicts if necessary
+- This is the final change to our feature branch, feature branch is complete and will be pushed origin for pull request
