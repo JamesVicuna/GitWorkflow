@@ -27,4 +27,9 @@ another change to main
 - -u command will set up upstreaming so that time we call a git push it will push this branch to our origin repository
 - We call origin as the remote repository to push the merging branch to the remote repository 
 
+# Rebase Notes
+
+- When calling a rebase, we will set the new head of the feature branch to be the lastest commit from main
+- to call a rebase, we want to call : "git rebase main" from our feature branch
+- this will allow us to update our feature branch with the latest changes to main
 - CHANGE TO MAIN - this is a commited change to main that we will use to update in our rebase
