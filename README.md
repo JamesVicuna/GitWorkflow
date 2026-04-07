@@ -21,3 +21,4 @@ another change to main
 
 - to merge changes from main to feature branch call : "git merge main" from feature branch
 - make sure to pull all changes beforehand
+- This will be merged over to merging branch from main to keep merging up to date
