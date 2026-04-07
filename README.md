@@ -16,4 +16,13 @@ new change to main
 
 another change to main
 
+
+# Merging Notes
+
+- to merge changes from main to feature branch call : "git merge main" from feature branch
+- make sure to pull all changes beforehand
 - This will be merged over to merging branch from main to keep merging up to date
+- to merge changes from feature branch to main branch, instead of merging the files locally we want to create a pull request to pull these changes from the feature branch to the main branch (merging feature to main)
+- to create this, we can call "git push -u origin merging"
+- -u command will set up upstreaming so that time we call a git push it will push this branch to our origin repository
+- We call origin as the remote repository to push the merging branch to the remote repository 
